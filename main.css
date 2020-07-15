@@ -2,34 +2,35 @@ body {
   font-family: "Helvetica";
 }
 
+
 ul.topnav {
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	background-color: #1b2538;
+    overflow: hidden;
+    margin: -8px;
+    padding: 0;
+    list-style-type: none;
+    background-color: #1b2538;
 }
 ul.topnav li {
-	float: left;
+    float: left;
 }
 ul.topnav li a {
-	display: block;
-	padding: 14px 16px;
-	text-align: center;
-	text-decoration: none;
-	color: white;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
 }
 ul.topnav li a:hover:not(.active) {
-	background-color: #a9bce2;
+    background-color: #a9bce2;
 }
 ul.topnav li a.active {
-	background-color: #da3c41;
+    background-color: #da3c41;
 }
 ul.topnav li.right {
-	float: right;
+    float: right;
 }
 @media screen and (max-width: 480px) {
-	ul.topnav li.right, ul.topnav li {
-		float: none;
-	}
+    ul.topnav li.right, ul.topnav li {
+        float: none;
+    }
 }

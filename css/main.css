@@ -1,0 +1,15 @@
+body {
+  font-family: "Helvetica";
+  background-color: rgba(65, 69, 77);
+  font-family: Helvetica;
+  color: #ffffff;
+  margin: 0;
+}
+
+a {
+color: #00aff4;
+}
+
+.content {
+padding: 80px 20px;
+}

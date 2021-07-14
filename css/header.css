@@ -1,0 +1,121 @@
+
+
+header a {
+text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+header {
+  height: 60px;
+  width: 100%;
+  padding: 0px 15px;
+  background-color: rgba(47, 49, 54);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: flex;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+nav {
+  margin: 0 0 0 auto;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  line-height: 60px;
+  padding: 0 20px;
+}
+
+.sm {
+  display: none;
+}
+
+
+/**********************************　
+以下、ハンバーガーメニューの設定　
+************************************/
+
+@media (max-width: 700px) {
+
+  .pc {
+    display: none;
+  }
+
+  #hamburger {
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    margin: 0 0 0 auto;
+    height: 60px;
+    width: 60px;
+  }
+
+  .icon span {
+    position: absolute;
+    left: 15px;
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 8px;
+    transition: ease 0.75s;
+  }
+
+  .icon span:nth-of-type(1) {
+    top: 16px;
+  }
+  .icon span:nth-of-type(2) {
+    top: 28px;
+  }
+  .icon span:nth-of-type(3) {
+    bottom: 16px;
+  }
+
+  .close span:nth-of-type(1) {
+    transform: rotate(45deg);
+    top: 28px;
+  }
+
+  .close span:nth-of-type(2) {
+    opacity: 0;
+  }
+
+  .close span:nth-of-type(3) {
+      transform: rotate(-45deg);
+      top: 28px;
+  }
+
+  .sm {
+      top: 60px;
+      left: 0px;
+      position: absolute;
+      z-index: 10;
+      width: 100%;
+      background-color: rgba(47, 49, 54);
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+ header a {
+    text-align: center; 
+    border-top: solid 0.5px rgba(255, 255, 255, 0.6);
+  }
+}

@@ -12,5 +12,8 @@ color: #00aff4;
 
 .content {
 padding: 80px 20px;
-height: auto !important
+}
+
+main {
+padding-bottom: 400px; 
 }

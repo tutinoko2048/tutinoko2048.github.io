@@ -4,8 +4,6 @@ footer {
   text-align: center;
   padding: 20px 0;
   background-color: rgba(47, 49, 54);
-  position: absolute;/*←絶対位置*/
-  bottom: 0; /*下に固定*/
 }
 .footer-text {
   color: #fff;

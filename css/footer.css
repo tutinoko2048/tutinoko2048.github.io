@@ -6,7 +6,6 @@ footer {
   background-color: rgba(47, 49, 54);
   position: absolute;/*←絶対位置*/
   bottom: 0; /*下に固定*/
-  margin-top: 700px;
 }
 .footer-text {
   color: #fff;
